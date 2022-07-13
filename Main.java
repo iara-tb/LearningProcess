@@ -6,6 +6,7 @@ public class Main
 	public static void main(String[] args) {
 		double resultado,numero1,numero2;
 		int opcao;
+		
 		do{
 		System.out.println("Informe qual operação matemática você deseja executar:\n");
 		System.out.println("Clique 1 para soma.\n");
@@ -20,10 +21,10 @@ public class Main
 		switch(opcao){
 		    case 1:System.out.println("Você escolheu soma.\nAgora informe os números que deseja somar.");
 		    	    numero1=resposta.nextDouble();
-		    
+		      
 		            numero2= resposta.nextDouble();
-		    resultado=numero1+numero2;
-		    System.out.println("O resultado da soma do "+numero1+" mais "+numero2+" é igual "+resultado+"\n");
+		            resultado=numero1+numero2;
+		            System.out.println("O resultado da soma do "+numero1+" mais "+numero2+" é igual "+resultado+"\n");
 		    break;
 		    
 		    case 2:System.out.println("Você escolheu subtração.\nAgora informe os números que deseja subtrair.");
@@ -31,7 +32,7 @@ public class Main
 		    
 		            numero2= resposta.nextDouble();
 		            resultado=numero1-numero2;
-		    		System.out.println("O resultado da subtração do "+numero1+" menos "+numero2+" é igual "+resultado+"\n");
+		    	   System.out.println("O resultado da subtração do "+numero1+" menos "+numero2+" é igual "+resultado+"\n");
 		    break;
 		    
 		    case 3:System.out.println("Você escolheu multiplicação.\nAgora informe os números que deseja multiplicar.");
@@ -46,8 +47,8 @@ public class Main
 		    	    numero1=resposta.nextDouble();
 		    
 		            numero2= resposta.nextDouble();
-		    resultado=numero1/numero2;
-		    System.out.println("O resultado da divisão do "+numero1+" pelo "+numero2+" é igual "+resultado+"\n");
+		            resultado=numero1/numero2;
+		            System.out.println("O resultado da divisão do "+numero1+" pelo "+numero2+" é igual "+resultado+"\n");
 		    break;
 		    
 		}
