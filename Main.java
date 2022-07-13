@@ -30,8 +30,8 @@ public class Main
 		    case 2:System.out.println("Você escolheu subtração.\nAgora informe os números que deseja subtrair.");
 		    	    numero1=resposta.nextDouble();
 		    
-		            numero2= resposta.nextDouble();
-		            resultado=numero1-numero2;
+		           numero2= resposta.nextDouble();
+		           resultado=numero1-numero2;
 		    	   System.out.println("O resultado da subtração do "+numero1+" menos "+numero2+" é igual "+resultado+"\n");
 		    break;
 		    
